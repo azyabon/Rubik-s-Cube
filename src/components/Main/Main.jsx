@@ -32,131 +32,34 @@ export const Main = () => {
           <Stars />
           <ambientLight intesity={0.5} />
           <pointLight position={[10, 10, 10]} />
-          <Cube position={[0.5, 0.5, 0.1]} color={"red"} />
-          <Cube position={[0, 0.5, 0.1]} color={"red"} />
-          <Cube position={[0, 0, 0.1]} color={"red"} />
-          <Cube position={[0.5, 0, 0.1]} color={"red"} />
-          <Cube position={[0, -0.5, 0.1]} color={"red"} />
-          <Cube position={[0.5, -0.5, 0.1]} color={"red"} />
-          <Cube position={[-0.5, 0.5, 0.1]} color={"red"} />
-          <Cube position={[-0.5, -0.5, 0.1]} color={"red"} />
-          <Cube position={[-0.5, 0, 0.1]} color={"red"} />
-
-          <Cube position={[0.5, 0.9, 0.5]} color={"yellow"} />
-          <Cube position={[-0.5, 0.9, 0.5]} color={"yellow"} />
-          <Cube position={[0, 0.9, 0.5]} color={"yellow"} />
-          <Cube position={[0.5, 0.9, 1]} color={"yellow"} />
-          <Cube position={[0, 0.9, 1]} color={"yellow"} />
-          <Cube position={[-0.5, 0.9, 1]} color={"yellow"} />
-          <Cube position={[-0.5, 0.9, 1.5]} color={"yellow"} />
-          <Cube position={[0.5, 0.9, 1.5]} color={"yellow"} />
-          <Cube position={[0, 0.9, 1.5]} color={"yellow"} />
-
-          <Cube position={[-0.9, 0.5, 0.5]} color={"green"} />
-          <Cube position={[-0.9, -0.5, 0.5]} color={"green"} />
-          <Cube position={[-0.9, 0, 0.5]} color={"green"} />
-          <Cube position={[-0.9, 0, 1]} color={"green"} />
-          <Cube position={[-0.9, -0.5, 1]} color={"green"} />
-          <Cube position={[-0.9, 0.5, 1]} color={"green"} />
-          <Cube position={[-0.9, 0.5, 1.5]} color={"green"} />
-          <Cube position={[-0.9, -0.5, 1.5]} color={"green"} />
-          <Cube position={[-0.9, 0, 1.5]} color={"green"} />
-
-          <Cube position={[0.9, 0, 0.5]} color={"blue"} />
-          <Cube position={[0.9, -0.5, 0.5]} color={"blue"} />
-          <Cube position={[0.9, 0.5, 0.5]} color={"blue"} />
-          <Cube position={[0.9, 0, 1]} color={"blue"} />
-          <Cube position={[0.9, -0.5, 1]} color={"blue"} />
-          <Cube position={[0.9, 0.5, 1]} color={"blue"} />
-          <Cube position={[0.9, 0.5, 1.5]} color={"blue"} />
-          <Cube position={[0.9, -0.5, 1.5]} color={"blue"} />
-          <Cube position={[0.9, 0, 1.5]} color={"blue"} />
-
-          <Cube position={[-0.5, -0.9, 0.5]} color={"white"} />
-          <Cube position={[0, -0.9, 0.5]} color={"white"} />
-          <Cube position={[0.5, -0.9, 0.5]} color={"white"} />
-          <Cube position={[0.5, -0.9, 1]} color={"white"} />
-          <Cube position={[0, -0.9, 1]} color={"white"} />
-          <Cube position={[-0.5, -0.9, 1]} color={"white"} />
-          <Cube position={[-0.5, -0.9, 1.5]} color={"white"} />
-          <Cube position={[0.5, -0.9, 1.5]} color={"white"} />
-          <Cube position={[0, -0.9, 1.5]} color={"white"} />
-
-          <Cube position={[0, 0.5, 1.9]} color={"orange"} />
-          <Cube position={[0, -0.5, 1.9]} color={"orange"} />
-          <Cube position={[0, 0, 1.9]} color={"orange"} />
-          <Cube position={[0.5, 0, 1.9]} color={"orange"} />
-          <Cube position={[0.5, -0.5, 1.9]} color={"orange"} />
-          <Cube position={[0.5, 0.5, 1.9]} color={"orange"} />
-          <Cube position={[-0.5, 0.5, 1.9]} color={"orange"} />
-          <Cube position={[-0.5, -0.5, 1.9]} color={"orange"} />
-          <Cube position={[-0.5, 0, 1.9]} color={"orange"} />
+          <Cube position={[0.3, 0.5, 0.1]} color={"white"} />
+          <Cube position={[-0.1, 0.5, 0.1]} color={"black"} />
+          <Cube position={[-0.1, 0.1, 0.1]} color={"black"} />
+          <Cube position={[0.3, 0.1, 0.1]} color={"black"} />
+          <Cube position={[-0.1, -0.3, 0.1]} color={"black"} />
+          <Cube position={[0.3, -0.3, 0.1]} color={"white"} />
+          <Cube position={[-0.5, 0.5, 0.1]} color={"white"} />
+          <Cube position={[-0.5, -0.3, 0.1]} color={"white"} />
+          <Cube position={[-0.5, 0.1, 0.1]} color={"black"} />
+          <Cube position={[-0.1, 0.5, 0.9]} color={"white"} />
+          <Cube position={[0.3, 0.5, 0.5]} color={"black"} />
+          <Cube position={[-0.1, 0.5, 0.5]} color={"black"} />
+          <Cube position={[0.3, 0.5, 0.9]} color={"black"} />
+          <Cube position={[-0.5, 0.5, 0.5]} color={"black"} />
+          <Cube position={[-0.5, -0.3, 0.5]} color={"black"} />
+          <Cube position={[-0.5, 0.1, 0.5]} color={"black"} />
+          <Cube position={[-0.5, 0.1, 0.9]} color={"black"} />
+          <Cube position={[-0.5, -0.3, 0.9]} color={"black"} />
+          <Cube position={[-0.5, 0.5, 0.9]} color={"black"} />
+          <Cube position={[-0.1, -0.3, 0.9]} color={"white"} />
+          <Cube position={[-0.1, 0.1, 0.9]} color={"black"} />
+          <Cube position={[0.3, 0.1, 0.9]} color={"black"} />
+          <Cube position={[0.3, -0.3, 0.9]} color={"black"} />
+          <Cube position={[0.3, -0.3, 0.5]} color={"black"} />
+          <Cube position={[0.3, 0.1, 0.5]} color={"black"} />
+          <Cube position={[-0.1, -0.3, 0.5]} color={"black"} />
         </Canvas>
       </Suspense>
     </main>
   );
 };
-
-// <Canvas>
-//   <ambientLight intesity={0.1} />
-//   <pointLight position={[10, 10, 10]} />
-//   <Cube position={[1, 1, 0]} color={"red"} />
-//   <Cube position={[0, 1, 0]} color={"red"} />
-//   <Cube position={[0, 0, 0]} color={"red"} />
-//   <Cube position={[1, 0, 0]} color={"red"} />
-//   <Cube position={[0, -1, 0]} color={"red"} />
-//   <Cube position={[1, -1, 0]} color={"red"} />
-//   <Cube position={[-1, 1, 0]} color={"red"} />
-//   <Cube position={[-1, -1, 0]} color={"red"} />
-//   <Cube position={[-1, 0, 0]} color={"red"} />
-//
-//   <Cube position={[1, 2, 0]} color={"green"} />
-//   <Cube position={[0, 2, 0]} color={"green"} />
-//   <Cube position={[-1, 2, 0]} color={"green"} />
-//   <Cube position={[1, 3, 0]} color={"green"} />
-//   <Cube position={[0, 3, 0]} color={"green"} />
-//   <Cube position={[-1, 3, 0]} color={"green"} />
-//   <Cube position={[-1, 4, 0]} color={"green"} />
-//   <Cube position={[1, 4, 0]} color={"green"} />
-//   <Cube position={[0, 4, 0]} color={"green"} />
-//
-//   <Cube position={[-2, 1, 0]} color={"yellow"} />
-//   <Cube position={[-2, -1, 0]} color={"yellow"} />
-//   <Cube position={[-2, 0, 0]} color={"yellow"} />
-//   <Cube position={[-3, 0, 0]} color={"yellow"} />
-//   <Cube position={[-3, -1, 0]} color={"yellow"} />
-//   <Cube position={[-3, 1, 0]} color={"yellow"} />
-//   <Cube position={[-4, 1, 0]} color={"yellow"} />
-//   <Cube position={[-4, -1, 0]} color={"yellow"} />
-//   <Cube position={[-4, 0, 0]} color={"yellow"} />
-//
-//   <Cube position={[2, 1, 0]} color={"white"} />
-//   <Cube position={[2, -1, 0]} color={"white"} />
-//   <Cube position={[2, 0, 0]} color={"white"} />
-//   <Cube position={[3, 0, 0]} color={"white"} />
-//   <Cube position={[3, -1, 0]} color={"white"} />
-//   <Cube position={[3, 1, 0]} color={"white"} />
-//   <Cube position={[4, 1, 0]} color={"white"} />
-//   <Cube position={[4, -1, 0]} color={"white"} />
-//   <Cube position={[4, 0, 0]} color={"white"} />
-//
-//   <Cube position={[1, -2, 0]} color={"blue"} />
-//   <Cube position={[0, -2, 0]} color={"blue"} />
-//   <Cube position={[-1, -2, 0]} color={"blue"} />
-//   <Cube position={[1, -3, 0]} color={"blue"} />
-//   <Cube position={[0, -3, 0]} color={"blue"} />
-//   <Cube position={[-1, -3, 0]} color={"blue"} />
-//   <Cube position={[-1, -4, 0]} color={"blue"} />
-//   <Cube position={[1, -4, 0]} color={"blue"} />
-//   <Cube position={[0, -4, 0]} color={"blue"} />
-//
-//   <Cube position={[-7, 1, 0]} color={"orange"} />
-//   <Cube position={[-7, -1, 0]} color={"orange"} />
-//   <Cube position={[-7, 0, 0]} color={"orange"} />
-//   <Cube position={[-6, 0, 0]} color={"orange"} />
-//   <Cube position={[-6, -1, 0]} color={"orange"} />
-//   <Cube position={[-6, 1, 0]} color={"orange"} />
-//   <Cube position={[-5, 1, 0]} color={"orange"} />
-//   <Cube position={[-5, -1, 0]} color={"orange"} />
-//   <Cube position={[-5, 0, 0]} color={"orange"} />
-// </Canvas>
